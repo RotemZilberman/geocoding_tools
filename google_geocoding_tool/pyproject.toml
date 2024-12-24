@@ -1,0 +1,31 @@
+[project]
+name = "address-geocoder"
+description = "A utility to geocode addresses from CSV or Excel files using the Google Geocoding API."
+version = "0.0.1"
+authors = [
+    { name = "Rotem", email = "rotemz.mail@gmail.com" },
+]
+readme = "README.md"
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "requests",
+]
+
+[project.optional-dependencies]
+
+[tool.yapf]
+based_on_style = "google"
+column_limit = 120
+
+[tool.pylint]
+max-line-length = 120
+
+[tool.setuptools]
+packages = [
+    "address_geocoder"
+]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = ["address_geocoder"]
