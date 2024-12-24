@@ -1,7 +1,7 @@
 # Google Geocoding Tool
 The Google Geocoding Tool is a Python-based utility designed to process addresses, geocode them using the Google Geocoding API, and output the results in a structured format. This tool is especially useful for applications that require converting physical addresses into geographical coordinates (latitude and longitude).
 ## Project Structure
-|-- geocoding_google_tool/
+|-- geocoding_google_tool
 |   |-- conversing.py  # Main Python script for geocoding logic
 |   |-- pyproject.toml # Configuration file with dependencies and API key
 |   |-- README.md          # This documentation
