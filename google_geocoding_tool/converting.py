@@ -3,7 +3,7 @@ import requests
 from tqdm import tqdm
 from pathlib import Path
 
-API_KRY = "AIzaSyDAvHaKdSZ7jtGrvdGtcf-JvqkNxt0cXiI"
+API_KRY = "you most enter a key"
 
 def geocode_address(api_key, address):
     """
