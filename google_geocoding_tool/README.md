@@ -27,6 +27,12 @@ pip install .
 ```
 
 Run the Code:
+In the code change the Key Line to your api google key:
+
+```
+API_KRY = <INPUT HERE>
+```
+
 Write in the terminal:
 ```
 python converting.py
